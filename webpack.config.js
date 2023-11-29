@@ -35,6 +35,7 @@ module.exports = {
           // 순서가 중요 먼저 로드가 되야하는 걸 뒤에
           "vue-style-loader",
           "css-loader",
+          "postcss-loader",
           "sass-loader",
         ],
       },
